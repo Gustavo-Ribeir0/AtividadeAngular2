@@ -1,0 +1,16 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+.AboutTitle {
+    color: rgb(133, 133, 133);
+    font-size: 35px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(26, 192, 48);
+  }
+
+  .AboutText{
+    color: rgb(73, 73, 73);
+  }
+
+  .AboutSubText{
+    color: rgb(112, 112, 112);
+  }
