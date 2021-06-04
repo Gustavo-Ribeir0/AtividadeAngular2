@@ -9,6 +9,7 @@ import { HeaderComponent } from './header/header.component';
 import { InstallComponent } from './install/install.component';
 import { PriceTableComponent } from './price-table/price-table.component';
 import { ServicesComponent } from './services/services.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -22,9 +23,13 @@ import { ServicesComponent } from './services/services.component';
     ServicesComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+  constructor() {
+  }
+}
